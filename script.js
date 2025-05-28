@@ -21,7 +21,7 @@ const weightChart = new Chart(ctx, {
         labels: Array.from({length: weight1Data.length}, (_, i) => `Cycle ${i + 1}`), 
         datasets: [
             {
-                label: 'UNIT-01 Weight (kg)',
+                label: 'Maecin 1 (kg)',
                 data: weight1Data,
                 borderColor: '#00ffff',
                 backgroundColor: 'rgba(0, 255, 255, 0.1)',
@@ -33,7 +33,7 @@ const weightChart = new Chart(ctx, {
                 tension: 0.3, 
             },
             {
-                label: 'UNIT-02 Weight (kg)',
+                label: 'Maecin 2 (kg)',
                 data: weight2Data,
                 borderColor: '#ff4400',
                 backgroundColor: 'rgba(255, 68, 0, 0.1)',
